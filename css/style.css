@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(19, 101, 207);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+}
+
+
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+.floor {
+    background-color: rgb(50, 179, 179);
+}
+
+.wall {
+    background-color: rgb(59, 170, 87);
+}
+
+.modal {
+    display: none;
+    background-color: rgb(19, 101, 207);
+    border: 5px solid white;
+    width: 300px;
+    padding: 20px;
+
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 175px);
+}
